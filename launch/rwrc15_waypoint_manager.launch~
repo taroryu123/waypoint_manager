@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="rwrc15_waypoint_manager" pkg="rwrc15_waypoint_manager" type="rwrc15_waypoint_manager" output="screen"/>
+  <param name="wp_dir_path" value="/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/wp_list_xy/"/>
+  
+  <!-- totyu start -->
+  <!-- <param name="wp_dir_path" value="/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/wp_list_xy/T_area/"/> -->
+  
+  <!-- Ikuta 3D Map -->
+  <!--param name="wp_txt" value="ikuchare_dkan2.txt"/-->
+  <!-- <param name="wp_txt" value="ikuchare_smooth_dkan4.txt"/> -->
+  <!-- <param name="wp_txt" value="path_test.txt"/> -->
+  
+  <!-- <param name="wp_txt" value="fnl_ikuta01.txt"/> -->
+  
+  <!--<param name="wp_txt" value="ikuta01_new.txt"/> -->
+  <!--param name="wp_txt" value="ikuta02_new.txt"/>-->
+  <!--param name="wp_txt" value="ikuta03_new.txt"/>-->
+  <param name="wp_txt" value="ikuchare_1_sm.txt"/>
+  <!--<param name="wp_txt" value="ikuchare_2_sm.txt"/>-->
+  <!--param name="wp_txt" value="ikuchare_3_sm.txt"/-->
+  <!--param name="wp_txt" value="dis4_waypoints.txt"/-->
+
+
+ <!-- TSUKUBA -->
+ <!--<param name="wp_txt" value="tsukuba_waypoints_original.txt"/>-->
+ <!-- <param name="wp_txt" value="tsukuba_waypoints_1107.txt"/> -->
+
+ <!--param name="wp_txt" value="T_areaXXX_XXX.txt"/-->
+ <!-- <param name="wp_txt" value="T_area6_46.txt"/> -->
+ <!-- <param name="wp_txt" value="T_area12_92.txt"/> -->
+ 
+</launch>

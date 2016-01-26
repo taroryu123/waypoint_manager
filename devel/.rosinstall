@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/devel/setup.sh

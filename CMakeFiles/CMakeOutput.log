@@ -1,0 +1,713 @@
+The system is: Linux - 3.13.0-48-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3834399057/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3834399057.dir/build.make CMakeFiles/cmTryCompileExec3834399057.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3834399057.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3834399057.dir/testCCompiler.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3834399057
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3834399057.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3834399057.dir/testCCompiler.c.o  -o cmTryCompileExec3834399057 -rdynamic 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2897200332/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2897200332.dir/build.make CMakeFiles/cmTryCompileExec2897200332.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2897200332.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2897200332.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2897200332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2897200332.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2897200332.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2897200332 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2897200332' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2897200332 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2897200332.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2897200332/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2897200332.dir/build.make CMakeFiles/cmTryCompileExec2897200332.dir/build]
+  ignore line: [make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2897200332.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2897200332.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2897200332]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2897200332.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2897200332.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2897200332 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2897200332' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2897200332 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2897200332.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2897200332] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec2897200332.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec177743395/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec177743395.dir/build.make CMakeFiles/cmTryCompileExec177743395.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec177743395.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec177743395.dir/testCXXCompiler.cxx.o -c /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec177743395
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec177743395.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec177743395.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec177743395 -rdynamic 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3129346117/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3129346117.dir/build.make CMakeFiles/cmTryCompileExec3129346117.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3129346117.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3129346117.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3129346117
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3129346117.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3129346117.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3129346117 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3129346117' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3129346117 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3129346117.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec3129346117/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3129346117.dir/build.make CMakeFiles/cmTryCompileExec3129346117.dir/build]
+  ignore line: [make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3129346117.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3129346117.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3129346117]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3129346117.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec3129346117.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3129346117 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.2-19ubuntu1' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3129346117' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3129346117 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3129346117.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3129346117] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec3129346117.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec831516170/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec831516170.dir/build.make CMakeFiles/cmTryCompileExec831516170.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec831516170.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec831516170.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec831516170
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec831516170.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec831516170.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec831516170 -rdynamic 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4198919010/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4198919010.dir/build.make CMakeFiles/cmTryCompileExec4198919010.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4198919010.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4198919010.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4198919010
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4198919010.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4198919010.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4198919010 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec147716394/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec147716394.dir/build.make CMakeFiles/cmTryCompileExec147716394.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec147716394.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec147716394.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec147716394
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec147716394.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec147716394.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec147716394 -rdynamic 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec246835949/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec246835949.dir/build.make CMakeFiles/cmTryCompileExec246835949.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec246835949.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec246835949.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec246835949
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec246835949.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec246835949.dir/CheckFunctionExists.c.o  -o cmTryCompileExec246835949 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4086564321/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4086564321.dir/build.make CMakeFiles/cmTryCompileExec4086564321.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4086564321.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4086564321.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4086564321
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4086564321.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4086564321.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4086564321 -rdynamic 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1370721196/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1370721196.dir/build.make CMakeFiles/cmTryCompileExec1370721196.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1370721196.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1370721196.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1370721196
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1370721196.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1370721196.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1370721196 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3114120519/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3114120519.dir/build.make CMakeFiles/cmTryCompileExec3114120519.dir/build
+make[1]: ディレクトリ `/home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3114120519.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3114120519.dir/CheckIncludeFiles.c.o   -c /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3114120519
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3114120519.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3114120519.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3114120519 -rdynamic 
+make[1]: ディレクトリ `/home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3661630260/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3661630260.dir/build.make CMakeFiles/cmTryCompileExec3661630260.dir/build
+make[1]: ディレクトリ `/home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3661630260.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3661630260.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3661630260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3661630260.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3661630260.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3661630260 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec959572992/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec959572992.dir/build.make CMakeFiles/cmTryCompileExec959572992.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec959572992.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec959572992.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec959572992
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec959572992.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec959572992.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec959572992 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2115901960/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2115901960.dir/build.make CMakeFiles/cmTryCompileExec2115901960.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2115901960.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2115901960.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2115901960
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2115901960.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2115901960.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2115901960 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1188053965/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1188053965.dir/build.make CMakeFiles/cmTryCompileExec1188053965.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1188053965.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1188053965.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1188053965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1188053965.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1188053965.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1188053965 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3070264013/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3070264013.dir/build.make CMakeFiles/cmTryCompileExec3070264013.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3070264013.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3070264013.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3070264013
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3070264013.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3070264013.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3070264013 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3361558935/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3361558935.dir/build.make CMakeFiles/cmTryCompileExec3361558935.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3361558935.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3361558935.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3361558935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3361558935.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3361558935.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3361558935 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1538550275/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1538550275.dir/build.make CMakeFiles/cmTryCompileExec1538550275.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1538550275.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1538550275.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1538550275
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1538550275.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1538550275.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1538550275 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4259714846/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4259714846.dir/build.make CMakeFiles/cmTryCompileExec4259714846.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4259714846.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4259714846.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4259714846
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4259714846.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec4259714846.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4259714846 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec645588069/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec645588069.dir/build.make CMakeFiles/cmTryCompileExec645588069.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec645588069.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec645588069.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec645588069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec645588069.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec645588069.dir/CheckFunctionExists.c.o  -o cmTryCompileExec645588069 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3790781787/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3790781787.dir/build.make CMakeFiles/cmTryCompileExec3790781787.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3790781787.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3790781787.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3790781787
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3790781787.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3790781787.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3790781787 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3369284069/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3369284069.dir/build.make CMakeFiles/cmTryCompileExec3369284069.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3369284069.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3369284069.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3369284069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3369284069.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3369284069.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3369284069 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3105792687/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3105792687.dir/build.make CMakeFiles/cmTryCompileExec3105792687.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3105792687.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3105792687.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3105792687
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3105792687.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3105792687.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3105792687 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4179215756/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4179215756.dir/build.make CMakeFiles/cmTryCompileExec4179215756.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4179215756.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec4179215756.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4179215756
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4179215756.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec4179215756.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4179215756 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2111559181/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2111559181.dir/build.make CMakeFiles/cmTryCompileExec2111559181.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2111559181.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2111559181.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2111559181
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2111559181.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2111559181.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2111559181 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1836810115/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1836810115.dir/build.make CMakeFiles/cmTryCompileExec1836810115.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1836810115.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1836810115.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1836810115
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1836810115.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1836810115.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1836810115 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4097649836/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4097649836.dir/build.make CMakeFiles/cmTryCompileExec4097649836.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4097649836.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4097649836.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4097649836
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4097649836.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec4097649836.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4097649836 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1671901936/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1671901936.dir/build.make CMakeFiles/cmTryCompileExec1671901936.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1671901936.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1671901936.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1671901936
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1671901936.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1671901936.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1671901936 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2278850550/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2278850550.dir/build.make CMakeFiles/cmTryCompileExec2278850550.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2278850550.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2278850550.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2278850550
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2278850550.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2278850550.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2278850550 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1512167263/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1512167263.dir/build.make CMakeFiles/cmTryCompileExec1512167263.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1512167263.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1512167263.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1512167263
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1512167263.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1512167263.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1512167263 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3937419125/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3937419125.dir/build.make CMakeFiles/cmTryCompileExec3937419125.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3937419125.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3937419125.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3937419125
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3937419125.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3937419125.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3937419125 -rdynamic 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec856101535/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec856101535.dir/build.make CMakeFiles/cmTryCompileExec856101535.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec856101535.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec856101535.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec856101535
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec856101535.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec856101535.dir/CheckFunctionExists.c.o  -o cmTryCompileExec856101535 -rdynamic -lpthread 
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3571946415/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3571946415.dir/build.make CMakeFiles/cmTryCompileExec3571946415.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3571946415.dir/CheckIncludeFiles.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3571946415.dir/CheckIncludeFiles.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3571946415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3571946415.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3571946415.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3571946415 -rdynamic 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1875476230/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1875476230.dir/build.make CMakeFiles/cmTryCompileExec1875476230.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1875476230.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1875476230.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1875476230
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1875476230.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1875476230.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1875476230 -rdynamic -lpthread 
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+
+

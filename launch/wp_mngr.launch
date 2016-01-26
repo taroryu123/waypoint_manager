@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="wp_mngr" pkg="rwrc14_waypoint_manager" type="wp_mngr" output="screen"/>
+  <param name="wp_dir_path" value="/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/lat_lon_data/"/>
+  
+  <!-- Ikuta  -->
+  <!-- <param name="wp_txt" value="ikuta-2km_easy.txt"/> -->
+  <!-- <param name="wp_txt" value="Dkan_lat_lon.txt"/> -->
+  <!-- <param name="wp_txt" value="forSI_C3.txt"/> -->
+  <!-- <param name="wp_txt" value="dkan_1shu_shimizu1.txt"/> -->
+  <!-- <param name="wp_txt" value="dkan_seimon.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_1.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_2.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_3.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_4.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_5.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_6.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_7.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_8.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_11.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_12.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_13.txt"/> -->
+  <!-- <param name="wp_txt" value="jrm15_14.txt"/> -->
+  
+  <!-- D館内スタート->D館一周->D館内で停止 -->
+  <param name="wp_txt" value="20150217map.txt"/>
+  
+  <!-- Tsukuba  -->
+  <!-- <param name="wp_txt" value="confirm_stop.txt"/> -->
+  <!-- <param name="wp_txt" value="DEntrance.txt"/> -->
+  <!-- <param name="wp_txt" value="tkb2014.txt"/> -->
+  <!-- <param name="wp_txt" value="tkb2014_msd.txt"/> -->
+  <!-- <param name="wp_txt" value="tkb2014_slope.txt"/> -->
+  <!-- <param name="wp_txt" value="tkb2014.txt"/> -->
+</launch>

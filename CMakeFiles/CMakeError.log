@@ -1,0 +1,795 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1922833986/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1922833986.dir/build.make CMakeFiles/cmTryCompileExec1922833986.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1922833986.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1922833986.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1922833986
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1922833986.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1922833986.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1922833986 -rdynamic 
+CMakeFiles/cmTryCompileExec1922833986.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1922833986] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1922833986/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2377158048/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2377158048.dir/build.make CMakeFiles/cmTryCompileExec2377158048.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2377158048.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2377158048.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2377158048
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2377158048.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2377158048.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2377158048 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2377158048] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2377158048/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4010133231/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4010133231.dir/build.make CMakeFiles/cmTryCompileExec4010133231.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4010133231.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4010133231.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec4010133231
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4010133231.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4010133231.dir/CheckSymbolExists.c.o  -o cmTryCompileExec4010133231 -rdynamic 
+CMakeFiles/cmTryCompileExec4010133231.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make[1]: *** [cmTryCompileExec4010133231] エラー 1
+make: *** [cmTryCompileExec4010133231/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1886559523/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1886559523.dir/build.make CMakeFiles/cmTryCompileExec1886559523.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1886559523.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1886559523.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1886559523
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1886559523.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1886559523.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1886559523 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1886559523] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1886559523/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1795726275/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1795726275.dir/build.make CMakeFiles/cmTryCompileExec1795726275.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1795726275.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1795726275.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1795726275
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1795726275.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1795726275.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1795726275 -rdynamic 
+CMakeFiles/cmTryCompileExec1795726275.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1795726275] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1795726275/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1016359979/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1016359979.dir/build.make CMakeFiles/cmTryCompileExec1016359979.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1016359979.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1016359979.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1016359979
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1016359979.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1016359979.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1016359979 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1016359979] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1016359979/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1844684877/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1844684877.dir/build.make CMakeFiles/cmTryCompileExec1844684877.dir/build
+make[1]: ディレクトリ `/home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1844684877.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1844684877.dir/CheckSymbolExists.c.o   -c /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1844684877
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1844684877.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1844684877.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1844684877 -rdynamic 
+CMakeFiles/cmTryCompileExec1844684877.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1844684877] エラー 1
+make[1]: ディレクトリ `/home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec1844684877/fast] エラー 2
+
+File /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2837979064/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2837979064.dir/build.make CMakeFiles/cmTryCompileExec2837979064.dir/build
+make[1]: ディレクトリ `/home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2837979064.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2837979064.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2837979064
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2837979064.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2837979064.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2837979064 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2837979064] エラー 1
+make[1]: ディレクトリ `/home/amsl-ama/AMSL_ros_pkg/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec2837979064/fast] エラー 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec284554901/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec284554901.dir/build.make CMakeFiles/cmTryCompileExec284554901.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec284554901.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec284554901.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec284554901
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec284554901.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec284554901.dir/CheckSymbolExists.c.o  -o cmTryCompileExec284554901 -rdynamic 
+CMakeFiles/cmTryCompileExec284554901.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec284554901] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec284554901/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3417653786/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3417653786.dir/build.make CMakeFiles/cmTryCompileExec3417653786.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3417653786.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3417653786.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3417653786
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3417653786.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3417653786.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3417653786 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3417653786] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3417653786/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2680752786/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2680752786.dir/build.make CMakeFiles/cmTryCompileExec2680752786.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2680752786.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2680752786.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2680752786
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2680752786.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2680752786.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2680752786 -rdynamic 
+CMakeFiles/cmTryCompileExec2680752786.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2680752786] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2680752786/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1060858276/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1060858276.dir/build.make CMakeFiles/cmTryCompileExec1060858276.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1060858276.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1060858276.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1060858276
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1060858276.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1060858276.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1060858276 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1060858276] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1060858276/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1487532980/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1487532980.dir/build.make CMakeFiles/cmTryCompileExec1487532980.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1487532980.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1487532980.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1487532980
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1487532980.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1487532980.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1487532980 -rdynamic 
+CMakeFiles/cmTryCompileExec1487532980.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1487532980] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1487532980/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1820445398/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1820445398.dir/build.make CMakeFiles/cmTryCompileExec1820445398.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1820445398.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1820445398.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1820445398
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1820445398.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1820445398.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1820445398 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1820445398] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1820445398/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1036177102/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1036177102.dir/build.make CMakeFiles/cmTryCompileExec1036177102.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1036177102.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1036177102.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1036177102
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1036177102.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1036177102.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1036177102 -rdynamic 
+CMakeFiles/cmTryCompileExec1036177102.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1036177102] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1036177102/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2563408198/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2563408198.dir/build.make CMakeFiles/cmTryCompileExec2563408198.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2563408198.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2563408198.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2563408198
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2563408198.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2563408198.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2563408198 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2563408198] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2563408198/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec708699206/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec708699206.dir/build.make CMakeFiles/cmTryCompileExec708699206.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec708699206.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec708699206.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec708699206
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec708699206.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec708699206.dir/CheckSymbolExists.c.o  -o cmTryCompileExec708699206 -rdynamic 
+CMakeFiles/cmTryCompileExec708699206.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec708699206] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec708699206/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3714425095/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3714425095.dir/build.make CMakeFiles/cmTryCompileExec3714425095.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3714425095.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3714425095.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3714425095
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3714425095.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3714425095.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3714425095 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3714425095] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3714425095/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3509021982/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3509021982.dir/build.make CMakeFiles/cmTryCompileExec3509021982.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3509021982.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3509021982.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3509021982
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3509021982.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3509021982.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3509021982 -rdynamic 
+CMakeFiles/cmTryCompileExec3509021982.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3509021982] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3509021982/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2020355060/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2020355060.dir/build.make CMakeFiles/cmTryCompileExec2020355060.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2020355060.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2020355060.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2020355060
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2020355060.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2020355060.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2020355060 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2020355060] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2020355060/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec126356637/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec126356637.dir/build.make CMakeFiles/cmTryCompileExec126356637.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec126356637.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec126356637.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec126356637
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec126356637.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec126356637.dir/CheckSymbolExists.c.o  -o cmTryCompileExec126356637 -rdynamic 
+CMakeFiles/cmTryCompileExec126356637.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec126356637] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec126356637/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3173148552/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3173148552.dir/build.make CMakeFiles/cmTryCompileExec3173148552.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3173148552.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3173148552.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3173148552
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3173148552.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3173148552.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3173148552 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3173148552] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3173148552/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3656112251/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3656112251.dir/build.make CMakeFiles/cmTryCompileExec3656112251.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3656112251.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3656112251.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3656112251
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3656112251.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec3656112251.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3656112251 -rdynamic 
+CMakeFiles/cmTryCompileExec3656112251.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3656112251] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3656112251/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3785423894/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3785423894.dir/build.make CMakeFiles/cmTryCompileExec3785423894.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3785423894.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3785423894.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3785423894
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3785423894.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3785423894.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3785423894 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3785423894] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3785423894/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1067774743/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1067774743.dir/build.make CMakeFiles/cmTryCompileExec1067774743.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1067774743.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1067774743.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1067774743
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1067774743.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec1067774743.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1067774743 -rdynamic 
+CMakeFiles/cmTryCompileExec1067774743.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1067774743] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1067774743/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1007147261/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1007147261.dir/build.make CMakeFiles/cmTryCompileExec1007147261.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1007147261.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1007147261.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1007147261
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1007147261.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1007147261.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1007147261 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1007147261] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1007147261/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2023314668/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2023314668.dir/build.make CMakeFiles/cmTryCompileExec2023314668.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2023314668.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2023314668.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2023314668
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2023314668.dir/link.txt --verbose=1
+/usr/bin/cc         CMakeFiles/cmTryCompileExec2023314668.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2023314668 -rdynamic 
+CMakeFiles/cmTryCompileExec2023314668.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2023314668] Error 1
+make: *** [cmTryCompileExec2023314668/fast] Error 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3544526712/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3544526712.dir/build.make CMakeFiles/cmTryCompileExec3544526712.dir/build
+make[1]: Entering directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3544526712.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3544526712.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3544526712
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3544526712.dir/link.txt --verbose=1
+/usr/bin/cc     -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3544526712.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3544526712 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3544526712] Error 1
+make[1]: Leaving directory `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3544526712/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec260821336/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec260821336.dir/build.make CMakeFiles/cmTryCompileExec260821336.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec260821336.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec260821336.dir/CheckSymbolExists.c.o   -c /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec260821336
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec260821336.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec260821336.dir/CheckSymbolExists.c.o  -o cmTryCompileExec260821336 -rdynamic 
+CMakeFiles/cmTryCompileExec260821336.dir/CheckSymbolExists.c.o: 関数 `main' 内:
+CheckSymbolExists.c:(.text+0x16): `pthread_create' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec260821336] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec260821336/fast] エラー 2
+
+File /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3991221764/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3991221764.dir/build.make CMakeFiles/cmTryCompileExec3991221764.dir/build
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' に入ります
+/usr/bin/cmake -E cmake_progress_report /home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3991221764.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3991221764.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3991221764
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3991221764.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3991221764.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3991221764 -rdynamic -lpthreads 
+/usr/bin/ld: -lpthreads が見つかりません
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3991221764] エラー 1
+make[1]: ディレクトリ `/home/amsl/AMSL_ros_pkg/rwrc15/rwrc15_waypoint_manager/CMakeFiles/CMakeTmp' から出ます
+make: *** [cmTryCompileExec3991221764/fast] エラー 2
+
+

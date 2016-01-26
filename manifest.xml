@@ -1,0 +1,21 @@
+<package>
+  <description brief="rwrc15_waypoint_manager">
+
+     rwrc14_waypoint_manager
+
+  </description>
+  <author>amsl</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/rwrc14_waypoint_manager</url>
+  <depend package="roscpp"/>
+  <depend package="tf"/>
+  <depend package="geometry_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="visualization_msgs"/>
+  <depend package="std_msgs"/>
+  <depend package="rwrc15_msgs"/>
+
+</package>
+
+

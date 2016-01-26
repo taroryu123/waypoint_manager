@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/src/GPStoXY/GPStoXY.cpp
+GPStoXY.h
+/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/src/GPStoXY/GPStoXY.h
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+
+/home/amsl/AMSL_ros_pkg/rwrc14/rwrc14_waypoint_manager/src/GPStoXY/GPStoXY.h
+
